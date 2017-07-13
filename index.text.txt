@@ -1,0 +1,3502 @@
+ping scan
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 13:14 India Standard Time
+Nmap scan report for www.routerlogin.com (192.168.1.1)
+Host is up (0.69s latency).
+MAC Address: A0:63:91:08:8F:DA (Netgear)
+Nmap scan report for 192.168.1.10
+Host is up (0.10s latency).
+MAC Address: 80:6C:1B:D5:57:F1 (Motorola Mobility, a Lenovo Company)
+Nmap scan report for 192.168.1.13
+Host is up (0.12s latency).
+MAC Address: 70:18:8B:B9:1E:3F (Hon Hai Precision Ind.)
+Nmap scan report for 192.168.1.15
+Host is up (0.49s latency).
+MAC Address: B0:C0:90:15:FF:6B (Chicony Electronics)
+Nmap scan report for 192.168.1.23
+Host is up (0.49s latency).
+MAC Address: 38:A4:ED:59:77:E9 (Xiaomi Communications)
+Nmap scan report for 192.168.1.27
+Host is up (0.22s latency).
+MAC Address: 00:71:CC:43:85:B9 (Hon Hai Precision Ind.)
+Nmap scan report for 192.168.1.30
+Host is up (0.26s latency).
+MAC Address: 3C:F8:62:F9:C0:F9 (Intel Corporate)
+Nmap scan report for 192.168.1.37
+Host is up (2.1s latency).
+MAC Address: 34:BB:26:07:D7:BF (Motorola Mobility, a Lenovo Company)
+Nmap scan report for 192.168.1.34
+Host is up.
+Nmap done: 255 IP addresses (9 hosts up) scanned in 89.80 seconds
+
+------------------------------------------------------------------------
+
+
+Trace Route
+
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 13:20 India Standard Time
+Nmap scan report for www.spyrytech.com (108.167.180.19)
+Host is up (0.023s latency).
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   0.00 ms  192.168.0.1
+2   0.00 ms  103.16.71.45
+3   ...
+4   15.00 ms 108.167.180.19
+
+Nmap done: 1 IP address (1 host up) scanned in 25.12 seconds
+
+------------------------------------------------------------------------
+
+Quick Scan
+
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 13:21 India Standard Time
+Nmap scan report for www.spyrytech.com (108.167.180.19)
+Host is up (2.0s latency).
+Not shown: 82 closed ports
+PORT      STATE    SERVICE
+21/tcp    open     ftp
+22/tcp    filtered ssh
+25/tcp    filtered smtp
+26/tcp    open     rsftp
+53/tcp    open     domain
+80/tcp    open     http
+110/tcp   open     pop3
+143/tcp   open     imap
+443/tcp   open     https
+465/tcp   open     smtps
+587/tcp   open     submission
+993/tcp   open     imaps
+995/tcp   open     pop3s
+1110/tcp  filtered nfsd-status
+3306/tcp  open     mysql
+8080/tcp  open     http-proxy
+8443/tcp  open     https-alt
+49154/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 47.64 seconds
+
+---------------------------------------------------------------------
+
+
+
+Regular Scan
+
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 13:27 India Standard Time
+Nmap scan report for www.spyrytech.com (108.167.180.19)
+Host is up (0.55s latency).
+Not shown: 977 closed ports
+PORT     STATE    SERVICE
+21/tcp   open     ftp
+22/tcp   filtered ssh
+25/tcp   filtered smtp
+26/tcp   open     rsftp
+53/tcp   open     domain
+80/tcp   open     http
+110/tcp  open     pop3
+135/tcp  filtered msrpc
+139/tcp  filtered netbios-ssn
+143/tcp  open     imap
+443/tcp  open     https
+445/tcp  filtered microsoft-ds
+465/tcp  open     smtps
+587/tcp  open     submission
+593/tcp  filtered http-rpc-epmap
+993/tcp  open     imaps
+995/tcp  open     pop3s
+1434/tcp filtered ms-sql-m
+2222/tcp open     EtherNetIP-1
+3306/tcp open     mysql
+8080/tcp open     http-proxy
+8443/tcp open     https-alt
+9898/tcp filtered monkeycom
+
+Nmap done: 1 IP address (1 host up) scanned in 104.06 seconds
+
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+INTENSE Scan
+
+
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 11:36 India Standard Time
+WARNING: Could not import all necessary Npcap functions.  You may need to upgrade to version 0.07 or higher from http://www.npcap.org.  Resorting to connect() mode -- Nmap may not function completely
+NSE: Loaded 144 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 11:36
+Completed NSE at 11:36, 0.00s elapsed
+Initiating NSE at 11:36
+Completed NSE at 11:36, 0.00s elapsed
+Initiating Ping Scan at 11:36
+Scanning www.spyrytech.com (108.167.180.19) [2 ports]
+Completed Ping Scan at 11:36, 1.93s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 11:36
+Completed Parallel DNS resolution of 1 host. at 11:36, 11.54s elapsed
+Initiating Connect Scan at 11:36
+Scanning www.spyrytech.com (108.167.180.19) [1000 ports]
+Discovered open port 993/tcp on 108.167.180.19
+Discovered open port 143/tcp on 108.167.180.19
+Discovered open port 8080/tcp on 108.167.180.19
+Discovered open port 995/tcp on 108.167.180.19
+Discovered open port 3306/tcp on 108.167.180.19
+Discovered open port 53/tcp on 108.167.180.19
+Discovered open port 443/tcp on 108.167.180.19
+Discovered open port 21/tcp on 108.167.180.19
+Discovered open port 110/tcp on 108.167.180.19
+Discovered open port 587/tcp on 108.167.180.19
+Discovered open port 80/tcp on 108.167.180.19
+Discovered open port 554/tcp on 108.167.180.19
+Discovered open port 1723/tcp on 108.167.180.19
+Connect Scan Timing: About 11.20% done; ETC: 11:41 (0:04:06 remaining)
+Connect Scan Timing: About 22.70% done; ETC: 11:40 (0:03:28 remaining)
+Discovered open port 2222/tcp on 108.167.180.19
+Connect Scan Timing: About 34.20% done; ETC: 11:40 (0:02:55 remaining)
+Connect Scan Timing: About 43.15% done; ETC: 11:41 (0:02:39 remaining)
+Connect Scan Timing: About 56.80% done; ETC: 11:43 (0:02:54 remaining)
+Connect Scan Timing: About 65.60% done; ETC: 11:43 (0:02:16 remaining)
+Connect Scan Timing: About 73.30% done; ETC: 11:43 (0:01:54 remaining)
+Connect Scan Timing: About 80.70% done; ETC: 11:43 (0:01:22 remaining)
+Connect Scan Timing: About 86.15% done; ETC: 11:43 (0:01:00 remaining)
+Discovered open port 8443/tcp on 108.167.180.19
+Connect Scan Timing: About 92.85% done; ETC: 11:43 (0:00:31 remaining)
+Discovered open port 26/tcp on 108.167.180.19
+Completed Connect Scan at 11:43, 443.71s elapsed (1000 total ports)
+Initiating Service scan at 11:43
+Scanning 16 services on www.spyrytech.com (108.167.180.19)
+Completed Service scan at 11:45, 105.73s elapsed (16 services on 1 host)
+NSE: Script scanning 108.167.180.19.
+Initiating NSE at 11:45
+Completed NSE at 11:46, 54.08s elapsed
+Initiating NSE at 11:46
+Completed NSE at 11:46, 2.80s elapsed
+Nmap scan report for www.spyrytech.com (108.167.180.19)
+Host is up (0.45s latency).
+Not shown: 984 filtered ports
+PORT     STATE SERVICE    VERSION
+21/tcp   open  ftp        Pure-FTPd
+|_ssl-date: 2017-06-16T06:15:57+00:00; -3s from scanner time.
+26/tcp   open  smtp       Exim smtpd 4.87
+| smtp-commands: gator4189.hostgator.com Hello www.spyrytech.com [157.49.5.182], SIZE 52428800, 8BITMIME, PIPELINING, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:16:01+00:00; -3s from scanner time.
+53/tcp   open  domain     ISC BIND 9.8.2rc1
+| dns-nsid: 
+|_  bind.version: 9.8.2rc1-RedHat-9.8.2-0.47.rc1.el6_8.3
+80/tcp   open  http       nginx 1.12.0
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.12.0
+|_http-title: Home | Spyry Technologies - Bangalore
+110/tcp  open  pop3       Dovecot pop3d
+|_pop3-capabilities: UIDL PIPELINING RESP-CODES STLS SASL(PLAIN LOGIN) USER TOP AUTH-RESP-CODE CAPA
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:39+00:00; -3s from scanner time.
+143/tcp  open  imap       Dovecot imapd
+|_imap-capabilities: AUTH=LOGINA0001 Pre-login have OK STARTTLS LITERAL+ SASL-IR IMAP4rev1 LOGIN-REFERRALS listed more NAMESPACE AUTH=PLAIN capabilities post-login ENABLE ID IDLE
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:56+00:00; -3s from scanner time.
+443/tcp  open  ssl/ssl    Apache httpd (SSL-only mode)
+|_http-favicon: Unknown favicon MD5: 1BF5750EDD8EDB546E7029390D096520
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: Apache
+| http-title: 404: Page not found - HostGator
+|_Requested resource was /404.html
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:39+00:00; -3s from scanner time.
+554/tcp  open  rtsp?
+587/tcp  open  smtp       Exim smtpd 4.87
+| smtp-commands: gator4189.hostgator.com Hello www.spyrytech.com [157.49.3.135], SIZE 52428800, 8BITMIME, PIPELINING, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP 
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:55+00:00; -3s from scanner time.
+993/tcp  open  ssl/imap   Dovecot imapd
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:52+00:00; -3s from scanner time.
+995/tcp  open  ssl/pop3   Dovecot pop3d
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:15:40+00:00; -3s from scanner time.
+1723/tcp open  tcpwrapped
+|_pptp-version: ERROR: Script execution failed (use -d to debug)
+2222/tcp open  ssh        OpenSSH 5.3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 d8:cc:9e:2d:bd:64:0d:10:52:38:30:54:f2:75:e9:cb (DSA)
+|_  2048 1f:48:94:71:1f:c2:41:85:48:60:24:04:95:cb:8e:93 (RSA)
+3306/tcp open  mysql      MySQL 5.5.51-38.2
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.51-38.2
+|   Thread ID: 446191318
+|   Capabilities flags: 65535
+|   Some Capabilities: IgnoreSpaceBeforeParenthesis, ODBCClient, SupportsCompression, SupportsTransactions, IgnoreSigpipes, Speaks41ProtocolOld, Support41Auth, Speaks41ProtocolNew, DontAllowDatabaseTableColumn, LongPassword, SupportsLoadDataLocal, LongColumnFlag, ConnectWithDatabase, InteractiveClient, FoundRows, SwitchToSSLAfterHandshake, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: |F)7y{!,Y^K?64>{sOoc
+|_  Auth Plugin Name: 84
+8080/tcp open  http       nginx 1.12.0
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.12.0
+|_http-title: Home | Spyry Technologies - Bangalore
+8443/tcp open  ssl/http   nginx 1.12.0
+|_http-server-header: nginx/1.12.0
+|_http-title: 400 The plain HTTP request was sent to HTTPS port
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T06:16:00+00:00; -3s from scanner time.
+| tls-nextprotoneg: 
+|_  http/1.1
+Service Info: Host: gator4189.hostgator.com; OS: Red Hat Enterprise Linux 6; CPE: cpe:/o:redhat:enterprise_linux:6
+
+Host script results:
+|_clock-skew: mean: -3s, deviation: 0s, median: -3s
+
+NSE: Script Post-scanning.
+Initiating NSE at 11:46
+Completed NSE at 11:46, 0.00s elapsed
+Initiating NSE at 11:46
+Completed NSE at 11:46, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 624.29 seconds
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+Slow comprehensive scan
+
+
+
+Starting Nmap 7.50 ( https://nmap.org ) at 2017-06-16 16:14 India Standard Time
+NSE: Loaded 275 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 16:14
+NSE: [mtrace] A source IP must be provided through fromip argument.
+NSE: [shodan-api] Error: Please specify your ShodanAPI key with the shodan-api.apikey argument
+Completed NSE at 16:15, 18.51s elapsed
+Initiating NSE at 16:15
+Completed NSE at 16:15, 0.00s elapsed
+Initiating NSE at 16:15
+Completed NSE at 16:15, 0.00s elapsed
+Pre-scan script results:
+| lltd-discovery: 
+|   192.168.1.1
+|     Hostname: WNR614
+|     Mac: 00:0c:43:28:80:95 (Ralink Technology)
+|_  Use the newtargets script-arg to add the results as targets
+| targets-asn: 
+|_  targets-asn.asn is a mandatory parameter
+Initiating Ping Scan at 16:15
+Scanning www.spyrytech.com (108.167.180.19) [7 ports]
+Completed Ping Scan at 16:15, 0.82s elapsed (1 total hosts)
+Initiating Parallel DNS resolution of 1 host. at 16:15
+Completed Parallel DNS resolution of 1 host. at 16:15, 16.55s elapsed
+Initiating SYN Stealth Scan at 16:15
+Scanning www.spyrytech.com (108.167.180.19) [1000 ports]
+Discovered open port 993/tcp on 108.167.180.19
+Discovered open port 110/tcp on 108.167.180.19
+Discovered open port 143/tcp on 108.167.180.19
+Discovered open port 53/tcp on 108.167.180.19
+Discovered open port 995/tcp on 108.167.180.19
+Discovered open port 587/tcp on 108.167.180.19
+Discovered open port 21/tcp on 108.167.180.19
+Discovered open port 3306/tcp on 108.167.180.19
+Discovered open port 8080/tcp on 108.167.180.19
+Discovered open port 2222/tcp on 108.167.180.19
+Discovered open port 8443/tcp on 108.167.180.19
+Discovered open port 26/tcp on 108.167.180.19
+Discovered open port 465/tcp on 108.167.180.19
+Completed SYN Stealth Scan at 16:15, 11.56s elapsed (1000 total ports)
+Initiating UDP Scan at 16:15
+Scanning www.spyrytech.com (108.167.180.19) [1000 ports]
+Increasing send delay for 108.167.180.19 from 0 to 50 due to 11 out of 18 dropped probes since last increase.
+Increasing send delay for 108.167.180.19 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 108.167.180.19 from 100 to 200 due to max_successful_tryno increase to 6
+Warning: 108.167.180.19 giving up on port because retransmission cap hit (6).
+Increasing send delay for 108.167.180.19 from 200 to 400 due to 11 out of 15 dropped probes since last increase.
+UDP Scan Timing: About 5.93% done; ETC: 16:24 (0:08:12 remaining)
+Increasing send delay for 108.167.180.19 from 400 to 800 due to 11 out of 17 dropped probes since last increase.
+UDP Scan Timing: About 9.17% done; ETC: 16:26 (0:10:04 remaining)
+UDP Scan Timing: About 11.24% done; ETC: 16:29 (0:12:14 remaining)
+UDP Scan Timing: About 12.90% done; ETC: 16:31 (0:13:50 remaining)
+UDP Scan Timing: About 17.69% done; ETC: 16:31 (0:13:02 remaining)
+UDP Scan Timing: About 24.19% done; ETC: 16:31 (0:12:14 remaining)
+UDP Scan Timing: About 31.76% done; ETC: 16:32 (0:11:25 remaining)
+UDP Scan Timing: About 37.40% done; ETC: 16:32 (0:10:34 remaining)
+UDP Scan Timing: About 42.90% done; ETC: 16:32 (0:09:40 remaining)
+UDP Scan Timing: About 47.90% done; ETC: 16:32 (0:08:48 remaining)
+UDP Scan Timing: About 53.07% done; ETC: 16:32 (0:07:57 remaining)
+UDP Scan Timing: About 58.00% done; ETC: 16:32 (0:07:05 remaining)
+UDP Scan Timing: About 63.83% done; ETC: 16:32 (0:06:12 remaining)
+UDP Scan Timing: About 68.79% done; ETC: 16:32 (0:05:19 remaining)
+UDP Scan Timing: About 73.86% done; ETC: 16:32 (0:04:27 remaining)
+UDP Scan Timing: About 79.00% done; ETC: 16:32 (0:03:35 remaining)
+UDP Scan Timing: About 83.94% done; ETC: 16:32 (0:02:44 remaining)
+UDP Scan Timing: About 89.14% done; ETC: 16:32 (0:01:50 remaining)
+Discovered open port 53/udp on 108.167.180.19
+UDP Scan Timing: About 94.36% done; ETC: 16:32 (0:00:57 remaining)
+Completed UDP Scan at 16:33, 1046.28s elapsed (1000 total ports)
+Initiating Service scan at 16:33
+Scanning 35 services on www.spyrytech.com (108.167.180.19)
+Service scan Timing: About 42.86% done; ETC: 16:36 (0:02:11 remaining)
+Completed Service scan at 16:34, 102.65s elapsed (35 services on 1 host)
+Initiating OS detection (try #1) against www.spyrytech.com (108.167.180.19)
+adjust_timeouts2: packet supposedly had rtt of 8556000 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8556000 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8070000 microseconds.  Ignoring time.
+adjust_timeouts2: packet supposedly had rtt of 8070000 microseconds.  Ignoring time.
+Retrying OS detection (try #2) against www.spyrytech.com (108.167.180.19)
+Initiating Traceroute at 16:34
+Completed Traceroute at 16:34, 3.52s elapsed
+Initiating Parallel DNS resolution of 26 hosts. at 16:34
+Completed Parallel DNS resolution of 26 hosts. at 16:35, 16.55s elapsed
+NSE: Script scanning 108.167.180.19.
+Initiating NSE at 16:35
+NSE: [ip-geolocation-maxmind] You must specify a Maxmind database file with the maxmind_db argument.
+NSE: [ip-geolocation-maxmind] Download the database from http://dev.maxmind.com/geoip/legacy/geolite/
+Completed NSE at 16:37, 130.85s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 1.07s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.04s elapsed
+Nmap scan report for www.spyrytech.com (108.167.180.19)
+Host is up (0.24s latency).
+Not shown: 1955 closed ports
+PORT      STATE         SERVICE        VERSION
+21/tcp    open          ftp            Pure-FTPd
+| banner: 220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\x
+|_0D\x0A220-You are user number 3 of 150 allowed.\x0D\x0A220-Local tim...
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:22+00:00; -1s from scanner time.
+22/tcp    filtered      ssh
+25/tcp    filtered      smtp
+26/tcp    open          smtp           Exim smtpd 4.87
+| banner: 220-gator4189.hostgator.com ESMTP Exim 4.87 #1 Fri, 16 Jun 2017
+|_ 06:05:25 -0500 \x0D\x0A220-We do not authorize the use of this syst...
+|_smtp-commands: Couldn't establish connection on port 26
+53/tcp    open          domain         ISC BIND 9.8.2rc1
+80/tcp    filtered      http
+110/tcp   open          pop3           Dovecot pop3d
+|_banner: +OK Dovecot ready.
+|_pop3-capabilities: USER CAPA AUTH-RESP-CODE TOP UIDL PIPELINING STLS RESP-CODES SASL(PLAIN LOGIN)
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:31+00:00; -1s from scanner time.
+135/tcp   filtered      msrpc
+139/tcp   filtered      netbios-ssn
+143/tcp   open          imap           Dovecot imapd
+| banner: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID 
+|_ENABLE IDLE NAMESPACE STARTTLS AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+|_imap-capabilities: AUTH=LOGINA0001 listed capabilities IMAP4rev1 ENABLE AUTH=PLAIN LITERAL+ NAMESPACE STARTTLS SASL-IR post-login ID LOGIN-REFERRALS have Pre-login more IDLE OK
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:21+00:00; -1s from scanner time.
+443/tcp   filtered      https
+445/tcp   filtered      microsoft-ds
+465/tcp   open          ssl/smtp       Exim smtpd 4.87
+|_smtp-commands: Couldn't establish connection on port 465
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+587/tcp   open          smtp           Exim smtpd 4.87
+| smtp-commands: gator4189.hostgator.com Hello www.spyrytech.com [123.201.48.204], SIZE 52428800, 8BITMIME, PIPELINING, AUTH PLAIN LOGIN, STARTTLS, HELP, 
+|_ Commands supported: AUTH STARTTLS HELO EHLO MAIL RCPT DATA NOOP QUIT RSET HELP 
+|_ssl-date: 2017-06-16T11:05:21+00:00; -1s from scanner time.
+593/tcp   filtered      http-rpc-epmap
+993/tcp   open          ssl/imap       Dovecot imapd
+| banner: * OK [CAPABILITY IMAP4rev1 LITERAL+ SASL-IR LOGIN-REFERRALS ID 
+|_ENABLE IDLE NAMESPACE AUTH=PLAIN AUTH=LOGIN] Dovecot ready.
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:27+00:00; -1s from scanner time.
+995/tcp   open          ssl/pop3       Dovecot pop3d
+|_banner: +OK Dovecot ready.
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:31+00:00; -2s from scanner time.
+1434/tcp  filtered      ms-sql-m
+2222/tcp  open          ssh            OpenSSH 5.3 (protocol 2.0)
+|_banner: SSH-2.0-OpenSSH_5.3
+| ssh-hostkey: 
+|   1024 d8:cc:9e:2d:bd:64:0d:10:52:38:30:54:f2:75:e9:cb (DSA)
+|_  2048 1f:48:94:71:1f:c2:41:85:48:60:24:04:95:cb:8e:93 (RSA)
+| ssh2-enum-algos: 
+|   kex_algorithms: (1)
+|       diffie-hellman-group-exchange-sha256
+|   server_host_key_algorithms: (2)
+|       ssh-rsa
+|       ssh-dss
+|   encryption_algorithms: (3)
+|       aes256-ctr
+|       aes192-ctr
+|       aes128-ctr
+|   mac_algorithms: (4)
+|       hmac-sha2-512
+|       hmac-sha2-256
+|       hmac-ripemd160
+|       hmac-ripemd160@openssh.com
+|   compression_algorithms: (2)
+|       none
+|_      zlib@openssh.com
+3306/tcp  open          mysql          MySQL 5.5.51-38.2
+| banner: O\x00\x00\x00\x0A5.5.51-38.2\x00*\xF9\x9C\x1Ax)]zm5]U\x00\xFF\x
+|_FF\xC0\x02\x00\x0F\xC0\x15\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00tg...
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.5.51-38.2
+|   Thread ID: 446495021
+|   Capabilities flags: 65535
+|   Some Capabilities: SupportsLoadDataLocal, ODBCClient, Speaks41ProtocolNew, IgnoreSpaceBeforeParenthesis, DontAllowDatabaseTableColumn, IgnoreSigpipes, InteractiveClient, Speaks41ProtocolOld, SupportsTransactions, FoundRows, Support41Auth, LongPassword, LongColumnFlag, SwitchToSSLAfterHandshake, SupportsCompression, ConnectWithDatabase, SupportsAuthPlugins, SupportsMultipleStatments, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: >zn;wj.A@[)X_Xxvg#q7
+|_  Auth Plugin Name: 84
+8080/tcp  open          http           nginx 1.12.0
+| http-comments-displayer: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=www.spyrytech.com
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4418
+|     Comment: 
+|         /* Portfolio - Overlay
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 219
+|     Comment: 
+|         <!-- Footer
+|         		============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3585
+|     Comment: 
+|         /* Portfolio - Both Sidebars
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 51
+|     Comment: 
+|         <!-- Logo
+|         					============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8908
+|     Comment: 
+|         /* Tabs - Side Tabs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10951
+|     Comment: 
+|         /* Divider - Rounded & Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3807
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 2 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4698
+|     Comment: 
+|         /* Portfolio Single - Meta
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8210
+|     Comment: 
+|         /* Social Icons - Dark
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9000
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Side Navigation
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1829
+|     Comment: 
+|         /* Portfolio - Items - 5 & 6 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6007
+|     Comment: 
+|         /* Shop - 1 Column - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3739
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 3 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2076
+|     Comment: 
+|         /* Page Menu - Dots Style
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8219
+|     Comment: 
+|         /* Social Icons - Light
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 8
+|     Comment: 
+|         <!-- Stylesheets
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6473
+|     Comment: 
+|         /* Countdown - Inline
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 74
+|     Comment: 
+|         <!-- #primary-menu end -->
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 20
+|     Comment: 
+|         <!--[if lt IE 9]>
+|             	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+|             <![endif]-->
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 413
+|     Comment: 
+|         <!-- Footer Scripts
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8200
+|     Comment: 
+|         /* Social Icons - Rounded
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4650
+|     Comment: 
+|         /* Portfolio Single - Content
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8738
+|     Comment: 
+|         /* Tabs - Alternate Nav
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7443
+|     Comment: 
+|         /* Feature Box - Center
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/bootstrap.css
+|     Line number: 7
+|     Comment: 
+|         /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 35
+|     Comment: 
+|         /* Firefox */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9162
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Testimonials
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2660
+|     Comment: 
+|         /* Swiper Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 460
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Flex Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 382
+|     Comment: 
+|         /* overlay at start */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5333
+|     Comment: 
+|         /* Related Posts
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4735
+|     Comment: 
+|         /* Portfolio Single Navigation
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7145
+|     Comment: 
+|         /* Promo - Center Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4564
+|     Comment: 
+|         /* Portfolio Single
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3702
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 3 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4151
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Full Width
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2189
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Side Header
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10813
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Divider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10306
+|     Comment: 
+|         /* IE6-9 */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3829
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 2 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7115
+|     Comment: 
+|         /* Promo - Parallax
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9677
+|     Comment: 
+|         /* Pricing Boxes - Extended
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3133
+|     Comment: 
+|         /* Page Title - Dark
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8956
+|     Comment: 
+|         /* Tabs - Side Tabs & Nav Style 2
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3053
+|     Comment: 
+|         /* Pagination
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9763
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Counter
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1116
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Mega Menu
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7377
+|     Comment: 
+|         /* Feature Box - Border - Dark
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7262
+|     Comment: 
+|         /* Feature Box - Icon Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 352
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Sections
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6967
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Promo Boxes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10899
+|     Comment: 
+|         /* Short Divider - Icon Align Center
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6892
+|     Comment: 
+|         /* Buttons - Colors
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10493
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Google Maps
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 411
+|     Comment: 
+|         /* content animate out */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4826
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Blog
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 148
+|     Comment: 
+|         /* Portfolio - Items - 3 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9816
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Animated Rounded Skills
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8475
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Toggle
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5766
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Shop
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6857
+|     Comment: 
+|         /* Buttons - Promo 100% Width
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10920
+|     Comment: 
+|         /* Divider - Rounded Icon
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7022
+|     Comment: 
+|         /* Promo - with Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6461
+|     Comment: 
+|         /* Countdown - Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8584
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Accordions
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5126
+|     Comment: 
+|         /* Blog - Masonry
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11900
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Page Transitions
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8132
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Icon Overlay
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4035
+|     Comment: 
+|         /* Portfolio - Items - 6 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3232
+|     Comment: 
+|         /* Page Title - No Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 2142
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Retina CSS
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5356
+|     Comment: 
+|         /* Small Post
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10869
+|     Comment: 
+|         /* Divider - Icon Align Right
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8103
+|     Comment: 
+|         /* Icon Size - Extra Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3241
+|     Comment: 
+|         /* Page Title - Video
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7046
+|     Comment: 
+|         /* Promo - Dark
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7316
+|     Comment: 
+|         /* Feature Box - Light Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3640
+|     Comment: 
+|         /* Portfolio - Items - 3 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2562
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 196
+|     Comment: 
+|         /* Portfolio - Items - 2 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 221
+|     Comment: 
+|         <!-- Google Map End -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1015
+|     Comment: 
+|         /* Responsive Sticky Header
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3858
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 2 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3935
+|     Comment: 
+|         /* Portfolio - Items - 5 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 385
+|     Comment: 
+|         <!-- #footer end -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9351
+|     Comment: 
+|         /* Testimonial - Full Scroller
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8628
+|     Comment: 
+|         /* Accordion - with Title Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3675
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 3 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 51
+|     Comment: 
+|         <!-- Logo
+|                             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 557
+|     Comment: 
+|         /* Fix of Webkit flickering */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3688
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 3 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8246
+|     Comment: 
+|         /* Social Icons - Small
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6030
+|     Comment: 
+|         /* Shop - Single
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7194
+|     Comment: 
+|         /* Promo - Mini - Right Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8181
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Social Icons
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2344
+|     Comment: 
+|         /* Side Header - Push Header
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5088
+|     Comment: 
+|         /* Blog - Grid - 2 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4238
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Full Width - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 317
+|     Comment: 
+|         /* Portfolio - Items - 1 Column
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6382
+|     Comment: 
+|         /* Individual Events
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3162
+|     Comment: 
+|         /* Page Title - Center Aligned
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5150
+|     Comment: 
+|         /* Blog - Timeline
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 346
+|     Comment: 
+|         <!-- Copyrights
+|         			============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11214
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Toastr Notifications
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4116
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 20
+|     Comment: 
+|         <!--[if lt IE 9]>
+|         		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+|         	<![endif]-->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10305
+|     Comment: 
+|         /* W3C */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7290
+|     Comment: 
+|         /* Feature Box - Icon Outline Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10777
+|     Comment: 
+|         /* Fancy Title - Bottom Short Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 29
+|     Comment: 
+|         <!-- Document Title
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3886
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 2 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1817
+|     Comment: 
+|         /* Portfolio - Items - 5 & 6 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/bootstrap.css
+|     Line number: 191
+|     Comment: 
+|         /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5665
+|     Comment: 
+|         /* Post Elements
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1375
+|     Comment: 
+|         /* Primary Menu - Sub Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2778
+|     Comment: 
+|         /* Slider Caption
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7278
+|     Comment: 
+|         /* Feature Box - Icon Outline
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5104
+|     Comment: 
+|         /* Blog - Grid - 2 Columns - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 785
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Login
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 392
+|     Comment: 
+|         <!-- Footer Scripts
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8228
+|     Comment: 
+|         /* Social Icons - Colored
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4592
+|     Comment: 
+|         /* Portfolio Single - Gallery Thumbs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1569
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Search
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 29
+|     Comment: 
+|         <!-- Document Title
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8564
+|     Comment: 
+|         /* Toggle - FAQs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3571
+|     Comment: 
+|         /* Portfolio - Sidebar - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/animate.css
+|     Line number: 130
+|     Comment: 
+|         /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+|     
+|     Path: http://www.spyrytech.com:8080/css/animate.css
+|     Line number: 3
+|     Comment: 
+|         /*!
+|         Animate.css - http://daneden.me/animate
+|         Licensed under the MIT license - http://opensource.org/licenses/MIT
+|         
+|         Copyright (c) 2014 Daniel Eden
+|         */
+|     
+|     Path: http://www.spyrytech.com:8080/css/bootstrap.css
+|     Line number: 1
+|     Comment: 
+|         /*!
+|          * Bootstrap v3.3.4 (http://getbootstrap.com)
+|          * Copyright 2011-2015 Twitter, Inc.
+|          * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+|          */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3283
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Portfolio
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 265
+|     Comment: 
+|         <!-- Contact Info End -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8205
+|     Comment: 
+|         /* Social Icons - Borderless
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3078
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Page Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5459
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Blog - Author
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 82
+|     Comment: 
+|         <!-- Page Title
+|         		============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5030
+|     Comment: 
+|         /* Blog - Grid
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 8
+|     Comment: 
+|         <!-- Stylesheets
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 269
+|     Comment: 
+|         /* Portfolio - Items - 5 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 178
+|     Comment: 
+|         <!-- Contact Form End -->
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 105
+|     Comment: 
+|         <!-- Contact Form
+|                             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/js/functions.js
+|     Line number: 395
+|     Comment: 
+|          // Will preload 0 - before current, and 1 after the current image
+|     
+|     Path: http://www.spyrytech.com:8080/js/functions.js
+|     Line number: 367
+|     Comment: 
+|          // class to remove default margin from left and right side
+|     
+|     Path: http://www.spyrytech.com:8080/js/jquery.js
+|     Line number: 1
+|     Comment: 
+|         /*! jQuery v1.11.3 | (c) 2005, 2015 jQuery Foundation, Inc. | jquery.org/license */
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 82
+|     Comment: 
+|         <!-- Page Title
+|                 ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 253
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 2 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10140
+|     Comment: 
+|         /* Owl Carousel - Controls
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1862
+|     Comment: 
+|         /* Portfolio - Items - Overlay
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1841
+|     Comment: 
+|         /* Portfolio - Items - Descriptions
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 739
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Social
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9852
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Skills Bar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 37
+|     Comment: 
+|         <!-- Document Wrapper
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 87
+|     Comment: 
+|         /* Portfolio - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10880
+|     Comment: 
+|         /* Divider - Icon Align Center
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1590
+|     Comment: 
+|         /* Blog
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9324
+|     Comment: 
+|         /* Testimonial - Pagination
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1559
+|     Comment: 
+|         /* Portfolio - Filter
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1153
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Full Width
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9070
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	FAQ List
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8235
+|     Comment: 
+|         /* Social Icons - Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 496
+|     Comment: 
+|         /* Shop - 1 Column - Both Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2866
+|     Comment: 
+|         /* Slider Arrows
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 489
+|     Comment: 
+|         /* Shop - 2 Columns - Both Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7077
+|     Comment: 
+|         /* Promo - Flat
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10303
+|     Comment: 
+|         /* Opera 11.10+ */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10555
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Heading Styles
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 482
+|     Comment: 
+|         /* Shop - 2 Columns - Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 475
+|     Comment: 
+|         /* Shop - 3 Columns - Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11888
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Stretched Layout
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9624
+|     Comment: 
+|         /* Pricing Boxes - Best Price
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 444
+|     Comment: 
+|         /* Blog - Medium Post List
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 429
+|     Comment: 
+|         /* Blog - Grid - 2 Columns - Both Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 420
+|     Comment: 
+|         /* Blog - Grid - 2 Columns - Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11367
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Footer
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 411
+|     Comment: 
+|         /* Blog - Grid - 2 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11190
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Preloaders
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10763
+|     Comment: 
+|         /* Fancy Title - Right Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8542
+|     Comment: 
+|         /* Toggle - Bordered
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1996
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Page Menu
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 24
+|     Comment: 
+|         <!-- External JavaScripts
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 392
+|     Comment: 
+|         /* Blog - Grid - 3 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 383
+|     Comment: 
+|         /* Blog - Grid
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10304
+|     Comment: 
+|         /* IE10+ */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5290
+|     Comment: 
+|         /* Individual Post
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7162
+|     Comment: 
+|         /* Promo - Mini
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8074
+|     Comment: 
+|         /* Icon Size - Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 305
+|     Comment: 
+|         /* Portfolio - Items - 6 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 599
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Bar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Responsive CSS
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 293
+|     Comment: 
+|         /* Portfolio - Items - 6 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 217
+|     Comment: 
+|         <!-- #content end -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 281
+|     Comment: 
+|         /* Portfolio - Items - 5 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7593
+|     Comment: 
+|         /* Feature Box - Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 180
+|     Comment: 
+|         <!-- Google Map
+|                             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4049
+|     Comment: 
+|         /* Portfolio - Items - 1 Column
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 594
+|     Comment: 
+|         /* IE10 Windows Phone 8 Fixes */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 616
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Links
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10684
+|     Comment: 
+|         /* Emphasis Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10749
+|     Comment: 
+|         /* Fancy Title - Center Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7631
+|     Comment: 
+|         /* Animated Icon Hovers
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 220
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 2 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 208
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 2 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 383
+|     Comment: 
+|         <!-- #copyrights end -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8881
+|     Comment: 
+|         /* Tabs - Content Area
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 184
+|     Comment: 
+|         /* Portfolio - Items - 2 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 172
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 3 Columns - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5733
+|     Comment: 
+|         /* Infinity Scroll - Message Style
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6956
+|     Comment: 
+|         /* Buttons - No Hover
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3558
+|     Comment: 
+|         /* Portfolio - Sidebar - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/dark.css
+|     Line number: 1106
+|     Comment: 
+|         /* Dark Scheme - Bootstrap
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 111
+|     Comment: 
+|         /* Portfolio - Sidebar - No Margin
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3536
+|     Comment: 
+|         /* Portfolio - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 99
+|     Comment: 
+|         /* Portfolio - Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 74
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Portfolio
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5251
+|     Comment: 
+|         /* Blog - Timeline - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9468
+|     Comment: 
+|         /* Team Center
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7538
+|     Comment: 
+|         /* Feature Box - Right
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 399
+|     Comment: 
+|         /* content at start */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5971
+|     Comment: 
+|         /* Shop - 1 Column
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7473
+|     Comment: 
+|         /* Feature Box - Center & Large Icons
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 394
+|     Comment: 
+|         /* overlay animate out */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11479
+|     Comment: 
+|         /* Tag Cloud
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8818
+|     Comment: 
+|         /* Tabs - Large Navigation
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 304
+|     Comment: 
+|         /**
+|         			 * Remove all paddings around the image on small screen
+|         			 */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8671
+|     Comment: 
+|         /* Accordion - Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5012
+|     Comment: 
+|         /* Small Thumbs - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10458
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Contact Form
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 245
+|     Comment: 
+|         /* Main image in popup */
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 1
+|     Comment: 
+|         /* Magnific Popup CSS */
+|     
+|     Path: http://www.spyrytech.com:8080/css/dark.css
+|     Line number: 1
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Dark Scheme
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7135
+|     Comment: 
+|         /* Promo - with Border & Right Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 409
+|     Comment: 
+|         <!-- Go To Top
+|         	============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 386
+|     Comment: 
+|         <!-- #wrapper end -->
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 97
+|     Comment: 
+|         <!-- Content
+|         		============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1825
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Sticky Header
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/intern.html
+|     Line number: 41
+|     Comment: 
+|         <!-- Header
+|         		============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1772
+|     Comment: 
+|         /* Copyrights
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10217
+|     Comment: 
+|         /* Owl Carousel - Controls - Dots
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2632
+|     Comment: 
+|         /* Flex Thumbs - Flexible
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/contact.html
+|     Line number: 225
+|     Comment: 
+|         <!-- Contact Info
+|                             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 305
+|     Comment: 
+|         /* MOVING BG -  TESTIMONIALS */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 12871
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	HTML5 Youtube Video Backgrounds
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10302
+|     Comment: 
+|         /* Chrome10+,Safari5.1+ */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7121
+|     Comment: 
+|         /* Promo - Right Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 468
+|     Comment: 
+|         /* Shop - 3 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11825
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Bootstrap Specific
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 920
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Header Right Area
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 883
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Logo
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6166
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Cart
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9531
+|     Comment: 
+|         /* Pricing Boxes - Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6450
+|     Comment: 
+|         /* Countdown - Medium
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5476
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Comments List
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11670
+|     Comment: 
+|         /* Newsletter Widget
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11657
+|     Comment: 
+|         /* Widget - Quick Contact Form
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11625
+|     Comment: 
+|         /* Widget - Testimonial & Twitter
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9050
+|     Comment: 
+|         /* Chevrons */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7188
+|     Comment: 
+|         /* Promo - Mini - Center Align
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9304
+|     Comment: 
+|         /* Testimonial - Section Scroller
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5072
+|     Comment: 
+|         /* Blog - Grid - 3 Columns - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3152
+|     Comment: 
+|         /* Page Title - Right Aligned
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 390
+|     Comment: 
+|         /* overlay animate in */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11444
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Widgets
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7098
+|     Comment: 
+|         /* Promo - 100% Full Width
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11156
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Landing Pages
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 543
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Swiper Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11120
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Error 404
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10301
+|     Comment: 
+|         /* Chrome,Safari4+ */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1427
+|     Comment: 
+|         /* Primary Menu - Style 2 with Sub Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10699
+|     Comment: 
+|         /* Justify Border Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2393
+|     Comment: 
+|         /* Side Header - Right Aligned
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8648
+|     Comment: 
+|         /* Accordion - Bordered
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11075
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Text Rotater
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11045
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Magazine Specific Classes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8523
+|     Comment: 
+|         /* Toggle - with Title Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7034
+|     Comment: 
+|         /* Promo - Light
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7746
+|     Comment: 
+|         /* Media Featured Box
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 814
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Header
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10963
+|     Comment: 
+|         /* Divider - Line Only
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10799
+|     Comment: 
+|         /* Sub Heading
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 232
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 2 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10600
+|     Comment: 
+|         /* Heading Block - with Subtitle
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 80
+|     Comment: 
+|         <!-- #header end -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10524
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Google Custom Search
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 41
+|     Comment: 
+|         <!-- Header
+|                 ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3218
+|     Comment: 
+|         /* Page Title - Mini
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2745
+|     Comment: 
+|         /* Video Overlay
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 258
+|     Comment: 
+|         /* The shadow behind the image */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4000
+|     Comment: 
+|         /* Portfolio - Items - 6 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5945
+|     Comment: 
+|         /* Shop - 2 Columns - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 95
+|     Comment: 
+|         <!-- #page-title end -->
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 376
+|     Comment: 
+|         /* Blog - Small
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4612
+|     Comment: 
+|         /* Portfolio & Blog Single - Masonry
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10300
+|     Comment: 
+|         /* FF3.6+ */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10244
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Overlays
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 395
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Columns & Grids
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7298
+|     Comment: 
+|         /* Feature Box - Icon Rounded
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9601
+|     Comment: 
+|         /* Pricing Boxes - Features
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4998
+|     Comment: 
+|         /* Small Thumbs - Right
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10148
+|     Comment: 
+|         /* Owl Carousel - Controls - Arrows
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3653
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 3 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9659
+|     Comment: 
+|         /* Pricing Boxes - 5 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3409
+|     Comment: 
+|         /* Portfolio - Item Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6412
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Countdown
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3844
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 2 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7011
+|     Comment: 
+|         /* Promo Uppercase
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9618
+|     Comment: 
+|         /* Pricing Boxes - Action
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9561
+|     Comment: 
+|         /* Pricing Boxes - Price
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11710
+|     Comment: 
+|         /* Navigation Tree
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7307
+|     Comment: 
+|         /* Feature Box - Icon Rounded & Large
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3962
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 5 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6510
+|     Comment: 
+|         /* Countdown - Coming Soon
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 136
+|     Comment: 
+|         /* Portfolio - Items - 3 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9506
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Pricing Boxes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 160
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 3 Columns
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9370
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Team
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 41
+|     Comment: 
+|         /* Safari */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6231
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Events
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3488
+|     Comment: 
+|         /* Portfolio - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3622
+|     Comment: 
+|         /* Portfolio - Items - 3 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5626
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Comment Form
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9255
+|     Comment: 
+|         /* Twitter - Small Scroller
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10372
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Forms
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9166
+|     Comment: 
+|         /* Testimonials - Grid
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4968
+|     Comment: 
+|         /* Small Thumbs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4802
+|     Comment: 
+|         /* Individual Portfolio Item
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8753
+|     Comment: 
+|         /* Tabs - Top Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3190
+|     Comment: 
+|         /* Page Title - Parallax Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4570
+|     Comment: 
+|         /* Portfolio Single - Image
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4287
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Full Width - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9085
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Clients
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 402
+|     Comment: 
+|         /* Blog - Grid - 3 Columns - Sidebar
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/responsive.css
+|     Line number: 1082
+|     Comment: 
+|         /* Portfolio - Items
+|         	-----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7845
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Alerts
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8973
+|     Comment: 
+|         /* Tabs - Side Tabs & Bordered
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1
+|     Comment: 
+|         /*-----------------------------------------------------------------------------------
+|         
+|         	Theme Name: Canvas
+|         	Theme URI: http://themes.semicolonweb.com/html/canvas
+|         	Description: The Multi-Purpose Template
+|         	Author: SemiColonWeb
+|         	Author URI: http://themeforest.net/user/semicolonweb
+|         	Version: 2.5
+|         
+|         -----------------------------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7558
+|     Comment: 
+|         /* Feature Box - Subtitle
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 957
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Primary Menu
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7200
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Featured Boxes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2715
+|     Comment: 
+|         /* Revolution Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3901
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 2 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8896
+|     Comment: 
+|         /* Tabs - Bordered
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 97
+|     Comment: 
+|         <!-- Content
+|                 ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8787
+|     Comment: 
+|         /* Tabs - Navigation Style 2
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8766
+|     Comment: 
+|         /* Tabs - Bottom Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/css/magnific-popup.css
+|     Line number: 407
+|     Comment: 
+|         /* content animate it */
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8690
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Tabs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11084
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Go To Top
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3753
+|     Comment: 
+|         /* Portfolio - Items - 2 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8293
+|     Comment: 
+|         /* Social Icons - Sticky Right
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6527
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Buttons
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11778
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Wedding
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3288
+|     Comment: 
+|         /* Portfolio - Filter
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4336
+|     Comment: 
+|         /* Portfolio - Parallax
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11024
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Dropcaps & Highlights
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9944
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Owl Carousel CSS
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8301
+|     Comment: 
+|         /* Social Icons - Share
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1321
+|     Comment: 
+|         /* Primary Menu - Style 5
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10345
+|     Comment: 
+|         /* News Carousel Overlays
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6662
+|     Comment: 
+|         /* Buttons - Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 388
+|     Comment: 
+|         <!-- Go To Top
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2590
+|     Comment: 
+|         /* Flex Slider - Thumbs
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10560
+|     Comment: 
+|         /* Block Titles
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5056
+|     Comment: 
+|         /* Blog - Grid - 3 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 37
+|     Comment: 
+|         <!-- Document Wrapper
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 24
+|     Comment: 
+|         <!-- External JavaScripts
+|             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8016
+|     Comment: 
+|         /* Icon Size - Small
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7925
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Styled Icons
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3181
+|     Comment: 
+|         /* Page Title - Background Pattern
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3509
+|     Comment: 
+|         /* Portfolio - 100% Full Width
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3365
+|     Comment: 
+|         /* Portfolio - Items
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3948
+|     Comment: 
+|         /* Portfolio - Items - 5 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1460
+|     Comment: 
+|         /* Primary Menu - Overlay Menu
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5932
+|     Comment: 
+|         /* Shop - 3 Columns - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 58
+|     Comment: 
+|         <!-- Primary Navigation
+|                             ============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 225
+|     Comment: 
+|         <!-- Footer Widgets
+|         				============================================= -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7386
+|     Comment: 
+|         /* Feature Box - Plain
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4022
+|     Comment: 
+|         /* Portfolio - Items - 6 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7368
+|     Comment: 
+|         /* Feature Box - Border - Light
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7346
+|     Comment: 
+|         /* Feature Box - Border
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2171
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	One Page
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 50
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Typography
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3339
+|     Comment: 
+|         /* Portfolio - Shuffle Icon
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1684
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Top Cart
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3795
+|     Comment: 
+|         /* Portfolio - Items - 2 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3007
+|     Comment: 
+|         /* Slide Number
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 10974
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Quotes & Blockquotes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3915
+|     Comment: 
+|         /* Portfolio - Items - 5 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1304
+|     Comment: 
+|         /* Primary Menu - Style 4
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9477
+|     Comment: 
+|         /* Team List
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 4103
+|     Comment: 
+|         /* Portfolio - Items - 1 Column - Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6726
+|     Comment: 
+|         /* Buttons - Icon Reveal
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9269
+|     Comment: 
+|         /* Testimonials - Full Width
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2584
+|     Comment: 
+|         /* Boxed Slider
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3262
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Content
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11680
+|     Comment: 
+|         /* Twitter Feed Widget
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7779
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Process Steps
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 6152
+|     Comment: 
+|         /* Individual Product
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7691
+|     Comment: 
+|         /* Icon Effects - Bordered
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5958
+|     Comment: 
+|         /* Shop - 2 Columns - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 2438
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Side Push Panel
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3605
+|     Comment: 
+|         /* Portfolio - Masonry
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9184
+|     Comment: 
+|         /* Testimonials - Item
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5115
+|     Comment: 
+|         /* Blog - Grid - 2 Columns - Both Sidebar
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5919
+|     Comment: 
+|         /* Shop - 3 Columns
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 7337
+|     Comment: 
+|         /* Feature Box - Dark Background
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 11509
+|     Comment: 
+|         /* Widget - Links
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5423
+|     Comment: 
+|         /* Medium Post
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 5133
+|     Comment: 
+|         /* Blog - Masonry Full
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3726
+|     Comment: 
+|         /* Portfolio - Both Sidebars - Items - 3 Columns - No Margin
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 75
+|     Comment: 
+|         /* ----------------------------------------------------------------
+|         	Basic Layout Styles
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 342
+|     Comment: 
+|         <!-- .footer-widgets-wrap end -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1352
+|     Comment: 
+|         /* Primary Menu - Style 6
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1280
+|     Comment: 
+|         /* Primary Menu - Style 3
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/services.html
+|     Line number: 56
+|     Comment: 
+|         <!-- #logo end -->
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 3986
+|     Comment: 
+|         /* Portfolio - Sidebar - Items - 5 Columns - No Title
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9648
+|     Comment: 
+|         /* Pricing Boxes - Minimal
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 8282
+|     Comment: 
+|         /* Social Icons - Sticky
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 9518
+|     Comment: 
+|         /* Pricing Boxes
+|         -----------------------------------------------------------------*/
+|     
+|     Path: http://www.spyrytech.com:8080/style.css
+|     Line number: 1231
+|     Comment: 
+|         /* Primary Menu - Style 2
+|_        -----------------------------------------------------------------*/
+|_http-date: Fri, 16 Jun 2017 11:05:21 GMT; -21s from local time.
+|_http-favicon: Unknown favicon MD5: D41D8CD98F00B204E9800998ECF8427E
+| http-grep: 
+|   (3) http://www.spyrytech.com:8080/: 
+|     (3) email: 
+|       + logo-dark@2x.png
+|       + logo@2x.png
+|       + info@spyrytech.com
+|   (6) http://www.spyrytech.com:8080/css/responsive.css: 
+|     (6) email: 
+|       + preloader@2x.gif
+|       + preloader-dark@2x.gif
+|       + widget-comment@2x.png
+|       + widget-link@2x.png
+|       + widget-comment-dark@2x.png
+|_      + widget-link-dark@2x.png
+| http-headers: 
+|   Server: nginx/1.12.0
+|   Date: Fri, 16 Jun 2017 11:05:20 GMT
+|   Content-Type: text/html; charset=UTF-8
+|   Content-Length: 15788
+|   Connection: close
+|   Last-Modified: Sun, 12 Feb 2017 03:39:17 GMT
+|   Accept-Ranges: bytes
+|   
+|_  (Request type: HEAD)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-mobileversion-checker: No mobile version detected.
+| http-referer-checker: 
+| Spidering limited to: maxpagecount=30
+|_  http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js
+|_http-security-headers: 
+|_http-server-header: nginx/1.12.0
+|_http-title: Home | Spyry Technologies - Bangalore
+| http-traceroute: 
+|_  Possible reverse proxy detected.
+| http-useragent-tester: 
+|   
+|     Allowed User Agents:
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|     WWW-Mechanize/1.34
+|_  
+|_http-xssed: No previously reported XSS vuln.
+8443/tcp  open          ssl/http       nginx 1.12.0
+| http-backup-finder: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=www.spyrytech.com
+|   http://www.spyrytech.com:8443/img-sys/Copy of favicon.ico
+|_  http://www.spyrytech.com:8443/img-sys/Copy (2) of favicon.ico
+|_http-comments-displayer: Couldn't find any comments.
+|_http-date: Fri, 16 Jun 2017 11:05:21 GMT; -6s from local time.
+| http-headers: 
+|   Server: nginx/1.12.0
+|   Date: Fri, 16 Jun 2017 11:05:46 GMT
+|   Content-Type: text/html
+|   Content-Length: 271
+|   Connection: close
+|   
+|_  (Request type: GET)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-mobileversion-checker: No mobile version detected.
+|_http-referer-checker: Couldn't find any cross-domain scripts.
+| http-robots.txt: 1 disallowed entry 
+|_/
+| http-security-headers: 
+|   Strict_Transport_Security: 
+|_    HSTS not configured in HTTPS Server
+|_http-server-header: nginx/1.12.0
+| http-title: 404: Page not found - HostGator
+|_Requested resource was /404.html
+| http-traceroute: 
+|_  Possible reverse proxy detected.
+| http-useragent-tester: 
+|   
+|     Allowed User Agents:
+|     Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)
+|     libwww
+|     lwp-trivial
+|     libcurl-agent/1.0
+|     PHP/
+|     Python-urllib/2.5
+|     GT::WWW
+|     Snoopy
+|     MFC_Tear_Sample
+|     HTTP::Lite
+|     PHPCrawl
+|     URI::Fetch
+|     Zend_Http_Client
+|     http client
+|     PECL::HTTP
+|     Wget/1.13.4 (linux-gnu)
+|     WWW-Mechanize/1.34
+|_  
+|_http-xssed: No previously reported XSS vuln.
+| ssl-cert: Subject: commonName=*.hostgator.com
+| Subject Alternative Name: DNS:*.hostgator.com, DNS:hostgator.com
+| Issuer: commonName=COMODO RSA Domain Validation Secure Server CA/organizationName=COMODO CA Limited/stateOrProvinceName=Greater Manchester/countryName=GB
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2015-10-16T00:00:00
+| Not valid after:  2018-10-15T23:59:59
+| MD5:   f6c8 f714 1a16 668e e5cd 15c8 4fa3 cf37
+|_SHA-1: 9141 b50c ee60 3888 dc45 f4f2 85c1 c884 4fe1 2221
+|_ssl-date: 2017-06-16T11:05:27+00:00; -1s from scanner time.
+| tls-nextprotoneg: 
+|_  http/1.1
+9898/tcp  filtered      monkeycom
+2/udp     open|filtered compressnet
+3/udp     open|filtered compressnet
+7/udp     open|filtered echo
+9/udp     open|filtered discard
+13/udp    open|filtered daytime
+17/udp    open|filtered qotd
+19/udp    open|filtered chargen
+20/udp    open|filtered ftp-data
+21/udp    open|filtered ftp
+53/udp    open          domain         ISC BIND 9.8.2rc1 (RedHat Enterprise Linux 6)
+| dns-nsid: 
+|_  bind.version: 9.8.2rc1-RedHat-9.8.2-0.47.rc1.el6_8.3
+67/udp    open|filtered dhcps
+68/udp    open|filtered dhcpc
+137/udp   open|filtered netbios-ns
+138/udp   open|filtered netbios-dgm
+623/udp   open|filtered asf-rmcp
+1434/udp  open|filtered ms-sql-m
+4672/udp  open|filtered rfa
+17237/udp open|filtered unknown
+20217/udp open|filtered unknown
+21698/udp open|filtered unknown
+23040/udp open|filtered unknown
+62677/udp open|filtered unknown
+Aggressive OS guesses: Linux 3.11 - 4.1 (92%), Linux 4.4 (91%), Ubiquiti EdgeSwitch (Linux 3.6) (88%), Android 5.0.1 (87%), Linux 3.10 - 3.12 (87%), Wyse ThinOS (87%), Linux 3.2 - 3.8 (87%), QNAP NAS Firmware 3.8.3 (Linux 3.X) (87%), Linux 2.6.32 (87%), Linux 3.18 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 56.048 days (since Fri Apr 21 15:29:03 2017)
+Network Distance: 27 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: Host: gator4189.hostgator.com; OSs: Red Hat Enterprise Linux 6, Linux; CPE: cpe:/o:redhat:enterprise_linux:6, cpe:/o:linux:linux_kernel:6
+
+Host script results:
+| asn-query: 
+| BGP: 108.167.180.0/22 | Country: US
+|   Origin AS: 20013 - CYRUSONE - CyrusOne LLC, US
+|_    Peer AS: 174 3356 6461 7922
+|_clock-skew: mean: -4s, deviation: 6s, median: -1s
+|_fcrdns: FAIL (No PTR record)
+|_firewalk: ERROR: Script execution failed (use -d to debug)
+|_hostmap-robtex: ERROR: Script execution failed (use -d to debug)
+| ip-geolocation-geoplugin: 
+|_108.167.180.19 (www.spyrytech.com)
+|_ipidseq: ERROR: Script execution failed (use -d to debug)
+|_path-mtu: ERROR: Script execution failed (use -d to debug)
+|_qscan: ERROR: Script execution failed (use -d to debug)
+| resolveall: 
+|   Host 'www.spyrytech.com' also resolves to:
+|_  Use the 'newtargets' script-arg to add the results as targets
+| traceroute-geolocation: 
+|   HOP  RTT     ADDRESS                                                      GEOLOCATION
+|   1    1.00    www.routerlogin.com (192.168.1.1)                            - ,- 
+|   2    2.00    193-253-201-123.static.youbroadband.in (123.201.253.193)     12.983,77.583 India (Karn\xC4\x81taka)
+|   3    8.00    93-116-109-203.static.youbroadband.in (203.109.116.93)       12.983,77.583 India (Karn\xC4\x81taka)
+|   4    33.00   blr-walton-core01.static.youbroadband.in (203.187.252.65)    12.983,77.583 India (Karn\xC4\x81taka)
+|   5    30.00   121.241.134.250                                              13.083,80.283 India (Tamil N\xC4\x81du)
+|   6    ...
+|   7    32.00   172.25.86.25                                                 - ,- 
+|   8    31.00   172.29.210.46                                                - ,- 
+|   9    47.00   172.29.250.33                                                - ,- 
+|   10   124.00  ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)         18.533,73.867 India (Mah\xC4\x81r\xC4\x81shtra)
+|   11   220.00  if-ae-2-2.tcore2.MLV-Mumbai.as6453.net (180.87.38.2)         18.533,73.867 India (Mah\xC4\x81r\xC4\x81shtra)
+|   12   238.00  if-ae-12-2.tcore1.L78-London.as6453.net (180.87.39.21)       18.533,73.867 India (Mah\xC4\x81r\xC4\x81shtra)
+|   13   216.00  if-ae-18-2.thar1.NJY-Newark.as6453.net (209.58.124.20)       38.927,-77.394 United States (Virginia)
+|   14   232.00  if-ae-1-3.thar2.NJY-Newark.as6453.net (216.6.57.2)           38.927,-77.394 United States (Virginia)
+|   15   220.00  if-ae-14-14.tcore2.NTO-New-York.as6453.net (66.198.111.9)    39.735,-75.668 United States (Delaware)
+|   16   212.00  if-ae-12-2.tcore1.N75-New-York.as6453.net (66.110.96.5)      40.731,-73.998 United States (New York)
+|   17   218.00  66.110.96.130                                                40.731,-73.998 United States (New York)
+|   18   257.00  hu-1-3-0-1-cr02.newyork.ny.ibone.comcast.net (68.86.83.93)   37.751,-97.822 United States ()
+|   19   306.00  be-10203-cr01.newark.nj.ibone.comcast.net (68.86.85.185)     37.751,-97.822 United States ()
+|   20   221.00  be-10102-cr02.ashburn.va.ibone.comcast.net (68.86.85.161)    37.751,-97.822 United States ()
+|   21   295.00  be-10114-cr02.56marietta.ga.ibone.comcast.net (68.86.85.10)  37.751,-97.822 United States ()
+|   22   265.00  be-11424-cr02.dallas.tx.ibone.comcast.net (68.86.85.22)      37.751,-97.822 United States ()
+|   23   271.00  be-12493-pe01.houston.tx.ibone.comcast.net (68.86.84.158)    - ,- 
+|   24   265.00  as8075-1.2001sixthave.wa.ibone.comcast.net (75.149.230.54)   37.751,-97.822 United States ()
+|   25   252.00  216.117.50.142                                               33.004,-96.900 United States (Texas)
+|   26   290.00  108.167.133.86                                               29.830,-95.474 United States (Texas)
+|_  27   249.00  108.167.180.19                                               29.830,-95.474 United States (Texas)
+| whois-domain: 
+| 
+| Domain name record found at whois.godaddy.com
+| Domain Name: SPYRYTECH.COM\x0D
+| Registry Domain ID: 1956739009_DOMAIN_COM-VRSN\x0D
+| Registrar WHOIS Server: whois.godaddy.com\x0D
+| Registrar URL: http://www.godaddy.com\x0D
+| Update Date: 2017-06-02T08:24:43Z\x0D
+| Creation Date: 2015-09-01T13:06:52Z\x0D
+| Registrar Registration Expiration Date: 2018-09-01T13:06:52Z\x0D
+| Registrar: GoDaddy.com, LLC\x0D
+| Registrar IANA ID: 146\x0D
+| Registrar Abuse Contact Email: abuse@godaddy.com\x0D
+| Registrar Abuse Contact Phone: +1.4806242505\x0D
+| Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited\x0D
+| Domain Status: clientUpdateProhibited http://www.icann.org/epp#clientUpdateProhibited\x0D
+| Domain Status: clientRenewProhibited http://www.icann.org/epp#clientRenewProhibited\x0D
+| Domain Status: clientDeleteProhibited http://www.icann.org/epp#clientDeleteProhibited\x0D
+| Registry Registrant ID: Not Available From Registry\x0D
+| Registrant Name: Spyry Techologies\x0D
+| Registrant Organization: Spyry Technologies LLP\x0D
+| Registrant Street: #47, 3rd Floor, Wheelers Road,\x0D
+| Registrant Street: Cox Town,\x0D
+| Registrant City: Bangalore\x0D
+| Registrant State/Province: Karnataka\x0D
+| Registrant Postal Code: 560005\x0D
+| Registrant Country: IN\x0D
+| Registrant Phone: +91.9538085699\x0D
+| Registrant Phone Ext: \x0D
+| Registrant Fax: \x0D
+| Registrant Fax Ext: \x0D
+| Registrant Email: spyrytech@gmail.com\x0D
+| Registry Admin ID: Not Available From Registry\x0D
+| Admin Name: Spyry Techologies\x0D
+| Admin Organization: Spyry Technologies LLP\x0D
+| Admin Street: #47, 3rd Floor, Wheelers Road,\x0D
+| Admin Street: Cox Town,\x0D
+| Admin City: Bangalore\x0D
+| Admin State/Province: Karnataka\x0D
+| Admin Postal Code: 560005\x0D
+| Admin Country: IN\x0D
+| Admin Phone: +91.9538085699\x0D
+| Admin Phone Ext: \x0D
+| Admin Fax: \x0D
+| Admin Fax Ext: \x0D
+| Admin Email: spyrytech@gmail.com\x0D
+| Registry Tech ID: Not Available From Registry\x0D
+| Tech Name: Spyry Techologies\x0D
+| Tech Organization: Spyry Technologies LLP\x0D
+| Tech Street: #47, 3rd Floor, Wheelers Road,\x0D
+| Tech Street: Cox Town,\x0D
+| Tech City: Bangalore\x0D
+| Tech State/Province: Karnataka\x0D
+| Tech Postal Code: 560005\x0D
+| Tech Country: IN\x0D
+| Tech Phone: +91.9538085699\x0D
+| Tech Phone Ext: \x0D
+| Tech Fax: \x0D
+| Tech Fax Ext: \x0D
+| Tech Email: spyrytech@gmail.com\x0D
+| Name Server: NS8377.HOSTGATOR.COM\x0D
+| Name Server: NS8378.HOSTGATOR.COM\x0D
+| DNSSEC: unsigned\x0D
+| URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/\x0D
+| >>> Last update of WHOIS database: 2017-06-16T11:00:00Z <<<\x0D
+| \x0D
+| For more information on Whois status codes, please visit https://www.icann.org/resources/pages/epp-status-codes-2014-06-16-en\x0D
+| \x0D
+| The data contained in GoDaddy.com, LLC's WhoIs database,\x0D
+| while believed by the company to be reliable, is provided "as is"\x0D
+| with no guarantee or warranties regarding its accuracy.  This\x0D
+| information is provided for the sole purpose of assisting you\x0D
+| in obtaining information about domain name registration records.\x0D
+| Any use of this data for any other purpose is expressly forbidden without the prior written\x0D
+| permission of GoDaddy.com, LLC.  By submitting an inquiry,\x0D
+| you agree to these terms of usage and limitations of warranty.  In particular,\x0D
+| you agree not to use this data to allow, enable, or otherwise make possible,\x0D
+| dissemination or collection of this data, in part or in its entirety, for any\x0D
+| purpose, such as the transmission of unsolicited advertising and\x0D
+| and solicitations of any kind, including spam.  You further agree\x0D
+| not to use this data to enable high volume, automated or robotic electronic\x0D
+| processes designed to collect or compile this data for any purpose,\x0D
+| including mining this data for your own personal or commercial purposes. \x0D
+| \x0D
+| Please note: the registrant of the domain name is specified\x0D
+| in the "registrant" section.  In most cases, GoDaddy.com, LLC \x0D
+|_is not the registrant of domain names listed in this database.\x0D
+| whois-ip: Record found at whois.arin.net
+| netrange: 108.167.128.0 - 108.167.191.255
+| netname: HGBLOCK-4
+| orgname: WEBSITEWELCOME.COM
+| orgid: BO
+| country: US stateprov: TX
+| orgtechname: IP Admin
+|_orgtechemail: ipadmin@websitewelcome.com
+
+TRACEROUTE (using port 199/tcp)
+HOP RTT       ADDRESS
+1   1.00 ms   www.routerlogin.com (192.168.1.1)
+2   2.00 ms   193-253-201-123.static.youbroadband.in (123.201.253.193)
+3   8.00 ms   93-116-109-203.static.youbroadband.in (203.109.116.93)
+4   33.00 ms  blr-walton-core01.static.youbroadband.in (203.187.252.65)
+5   30.00 ms  121.241.134.250
+6   ...
+7   32.00 ms  172.25.86.25
+8   31.00 ms  172.29.210.46
+9   47.00 ms  172.29.250.33
+10  124.00 ms ix-ae-0-4.tcore1.MLV-Mumbai.as6453.net (180.87.38.5)
+11  220.00 ms if-ae-2-2.tcore2.MLV-Mumbai.as6453.net (180.87.38.2)
+12  238.00 ms if-ae-12-2.tcore1.L78-London.as6453.net (180.87.39.21)
+13  216.00 ms if-ae-18-2.thar1.NJY-Newark.as6453.net (209.58.124.20)
+14  232.00 ms if-ae-1-3.thar2.NJY-Newark.as6453.net (216.6.57.2)
+15  220.00 ms if-ae-14-14.tcore2.NTO-New-York.as6453.net (66.198.111.9)
+16  212.00 ms if-ae-12-2.tcore1.N75-New-York.as6453.net (66.110.96.5)
+17  218.00 ms 66.110.96.130
+18  257.00 ms hu-1-3-0-1-cr02.newyork.ny.ibone.comcast.net (68.86.83.93)
+19  306.00 ms be-10203-cr01.newark.nj.ibone.comcast.net (68.86.85.185)
+20  221.00 ms be-10102-cr02.ashburn.va.ibone.comcast.net (68.86.85.161)
+21  295.00 ms be-10114-cr02.56marietta.ga.ibone.comcast.net (68.86.85.10)
+22  265.00 ms be-11424-cr02.dallas.tx.ibone.comcast.net (68.86.85.22)
+23  271.00 ms be-12493-pe01.houston.tx.ibone.comcast.net (68.86.84.158)
+24  265.00 ms as8075-1.2001sixthave.wa.ibone.comcast.net (75.149.230.54)
+25  252.00 ms 216.117.50.142
+26  290.00 ms 108.167.133.86
+27  249.00 ms 108.167.180.19
+
+NSE: Script Post-scanning.
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Initiating NSE at 16:37
+Completed NSE at 16:37, 0.00s elapsed
+Read data files from: C:\Program Files (x86)\Nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1359.03 seconds
+           Raw packets sent: 2554 (93.844KB) | Rcvd: 2138 (105.152KB)
+
+
+
